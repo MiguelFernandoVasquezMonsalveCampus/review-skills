@@ -12,7 +12,20 @@ def ej1():
  
 
 def ej2():
-    """"""
+    """ 2. En la jerarquía de operadores, cuáles son los que más
+    prioridad tienen cuando el intérprete de Python los evalúa? """
+
+    # ()                                mayor
+    # **
+    #  *, /, %, //
+    #  +, -
+    # <, <=, >, >=, !=, ==
+    # And
+    # Or                                menor
+
+    #operadores = ['()', '**', '*', '/', '%', '//', '+', '-', '<', '<=', '>', '>=', '!=','==', 'And', 'Or']
+
+    print('[!] los operadores van de mayor a menor: \n[!] Operacion entre parentesis: ()\n[!] Potencia: **\n[!] Multiplicación y División, módulo o residuo, División entera: *, /, %, //\n[!] Suma y resta: +,-\n[!] Operadores relacionales: <, <=, >, >=, !=, ==\n[!] Operador lógico AND: And\n[!] Operador lógico OR: Or')
  
 
 def ej3():
