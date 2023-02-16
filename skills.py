@@ -73,7 +73,27 @@ def ej6():
 
 
 def ej7():
-    """"""
+    """ 7. Cuál es la diferencia entre un condicional simple y un
+    condicional compuesto? """
+
+
+    simple = """
+    num = 20
+    if num%2 == 0:
+        print('Numero par')
+    """
+
+    compuesta = """
+    num = 10
+    if num%2 == 0:
+        print('numero par)
+    else:
+        print('no es un numero par')
+    """
+
+
+    print(f'[!] Un condicional simple tiene un solo parametro, la compuesta tiene mas de 2 si es requerido: \n\nSimple: \n{simple}\n\n Compuesta: \n{compuesta}')
+
 
 def ej8():
     """"""
