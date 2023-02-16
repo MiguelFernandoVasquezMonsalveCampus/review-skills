@@ -62,7 +62,15 @@ def ej5():
 #
 
 def ej6():
-    """"""
+    """ 6. En sus propias palabras, qué son las funciones
+    preconstruidas y proporcione 2 ejemplos. """
+
+    mayor=max(45, 75, 65, 31)
+    texto = len('hola mundo')
+
+    print(f'[!] Las funciones pre construidas son incluidas en las librerias de python nativamente. \n[!] Ejemplos: \n[!] la funcion max, revisa cual es el numero mayor dado en una lista: {mayor}\n[!] La funcion len, revisa los caracteres de un texto: {texto}')
+
+
 
 def ej7():
     """"""
