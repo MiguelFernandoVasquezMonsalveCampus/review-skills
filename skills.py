@@ -29,7 +29,18 @@ def ej2():
  
 
 def ej3():
-    """"""
+    """ 3. Si hay operadores de igual precedencia, en qué orden se
+    ejecutan?
+
+    A. De izquierda a derecha
+    B. De derecha a izquierda """
+
+    num1= 9
+    num2= 3
+
+
+    print(f'[!] A. se ejecuta de izquierda a derecha \n[!] {num1} - {num2} tiene misma prioridad que {num1} + {num2}')
+
 def ej4():
     """"""
 
