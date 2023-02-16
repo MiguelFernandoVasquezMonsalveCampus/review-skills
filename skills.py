@@ -96,7 +96,16 @@ def ej7():
 
 
 def ej8():
-    """"""
+    """ 8. Escriba un bloque cualquiera de código en Python en donde
+    utilice 2 condicionales (if) anidados. """
+
+    nombre = input('[!] Ingrese su nombre: \n[>] ')
+    if len(nombre) >= 6:
+        print('[!] tienes un nombre largo')
+        if nombre == 'miguel':
+            print('[!] te llamas igual que yo')
+    else:
+        print('[!] Tienes un nombre corto')
 
 def ej9():
     """"""
