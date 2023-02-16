@@ -132,7 +132,63 @@ def ej9():
     informacion()
 
 def ej10():
-    """"""
+    """ 10. En su casa le solicitan que realice un algoritmo en Python,
+    que permita calcular el valor a pagar por concepto de
+    energía eléctrica. Los datos que se conocen son los
+    siguientes:
+    - Mes de consumo - Valor kw
+    -Total kw consumido en el mes - estrato """
+
+
+    print('[!] extrato calculator omg\n')
+
+    def calcular():
+        kw = 0
+        estrato = int(input('[!] Ingrese su estrato: '))
+        mes = int(input('[!] Ingrese el mes de consumo: '))
+        #kw = int(input('Ingrese el valor de kw por dia: '))
+        total = int(input('[!] total kw consumidos en el mes: '))
+        if estrato == 1:
+            kw = 297
+        elif estrato == 2:
+            kw = 346
+        elif estrato == 3:
+            kw = 588
+        elif estrato == 4:
+            kw = 719
+        else:
+            kw = 862
+
+        if mes == 1:
+            h = 'enero'
+        elif mes == 2:
+            h = 'febrero'
+        elif mes == 3:
+            h = 'marzo'
+        elif mes == 4:
+            h = 'abril'
+        elif mes == 5:
+            h = 'mayo'
+        elif mes == 6:
+            h = 'junio'
+        elif mes == 7:
+            h = 'julio'
+        elif mes == 8:
+            h = 'agosto'
+        elif mes == 9:
+            h = 'septiembre'
+        elif mes == 10:
+            h = 'octubre'
+        elif mes == 11:
+            h = 'noviembre'
+        else: 
+            h = 'diciembre'    
+    
+        t = total * kw
+
+        print(f'\n[!] El valor total del mes {h.upper()} es :{t}')
+    
+    calcular()
 
 
 
