@@ -48,7 +48,18 @@ def ej4():
 
 
 def ej5():
-    """"""
+    """ Enumere 5 tipos de datos en Python y suministre un valor de
+    ejemplo de cada uno. """
+
+
+    num = 1
+    num2 = 2.1
+    string = 'hola'
+    hola = False
+    lista = [1, 2, 3]
+
+    print(f'[!] tipos de datos: \n[!] Numero entero: {num}\n[!] Float: {num2}\n[!] String: {string}\n[!] Booleano: {hola}\n[!] Lista: {lista}')
+#
 
 def ej6():
     """"""
