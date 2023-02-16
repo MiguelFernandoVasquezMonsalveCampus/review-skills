@@ -108,7 +108,28 @@ def ej8():
         print('[!] Tienes un nombre corto')
 
 def ej9():
-    """"""
+    """ 9. Construya un algoritmo en Python, que permita ingresar la
+    información de un empleado e imprima el nombre, los
+    apellidos y la antigüedad. Los datos que se deben solicitar
+    son los siguientes:
+    *Nombre * Teléfono *Año de ingreso a la empresa
+    *Apellidos *Edad. """
+
+
+    def informacion():
+        nombre = input('[>] Ingrese su nombre: ')
+        apellido = input('[>] Ingrese su apellido: ')
+        edad = int(input('[>] ingrese su edad: '))
+        telefono = input('[>] ingrese su telefono: ')
+        ade = int(input('[>] Ingrese el año de ingreso a la empresa: '))
+        em = 2023 - ade
+
+        if edad < 18:
+            print('[!] informacion invalida, no puedes ser menor de edad')
+    
+        print(f'\n[!] Bienvenido: {nombre} {apellido}\n[!] Tienes {edad} años y haz estado en esta empresa por {em} años\n[!] Tu telefono de contacto: {telefono}')
+
+    informacion()
 
 def ej10():
     """"""
