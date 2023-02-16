@@ -202,21 +202,21 @@ def skill():
     elif x == 2:
         ej2()
     elif x == 3:
-        ej2()
+        ej3()
     elif x == 4:
-        ej2()
+        ej4()
     elif x == 5:
-        ej2()
+        ej5()
     elif x == 6:
-        ej2()
+        ej6()
     elif x == 7:
-        ej2()
+        ej7()
     elif x == 8:
-        ej2()
+        ej8()
     elif x == 9:
-        ej2()
+        ej9()
     elif x == 10:
-        ej2()
+        ej10()
 
 
 skill()
