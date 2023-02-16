@@ -42,7 +42,10 @@ def ej3():
     print(f'[!] A. se ejecuta de izquierda a derecha \n[!] {num1} - {num2} tiene misma prioridad que {num1} + {num2}')
 
 def ej4():
-    """"""
+    """ 4. Que son las expresiones regulares en Python? """
+
+    print("[!] Las expresiones regulares (llamadas RE, o regex, o patrones de regex) son esencialmente en un lenguaje de programación diminuto y altamente especializado incrustado dentro de Python y disponible a través del módulo re .")
+
 
 def ej5():
     """"""
